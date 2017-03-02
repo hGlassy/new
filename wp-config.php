@@ -32,7 +32,7 @@ define('DB_PASSWORD', 'glassy123');
 define('DB_HOST', 'localhost');
 
 /** 创建数据表时默认的文字编码 */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** 数据库整理类型。如不确定请勿更改 */
 define('DB_COLLATE', '');
@@ -47,14 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '&,QM(NkL*qpT_UNPY]M6V*jB5y{. maTmPj-!a^Cs_%+t@Uceoo54=^xl`F+:Skm');
+define('SECURE_AUTH_KEY',  'A~8&N%)t+w7a]4]F6yBAne;Mla`_4C7Y/wR 4K a3ucM4q(NnWoDE3>:y9&.0Z0B');
+define('LOGGED_IN_KEY',    '+,6*wAi:oW5-Fk]X:zffbdla+iN7$`E4-BEp,q(QI>{xQf&KQ|fk9L?Qz&by1hf:');
+define('NONCE_KEY',        'f3s8k?Pc24NfMQ*~D>.]3``Iyh4wlIGzP>=N2I/w#Kx4Zbla0*;dg[3wej.B>[0D');
+define('AUTH_SALT',        '_Jy*ta|owb[iFR9D8SU6-1nF4:j:-ckoZKkgwn~Pu=CYKyM[(#2Xz&463XtU+vXJ');
+define('SECURE_AUTH_SALT', '+y`:)P:${@f9o%z7PWL<%DIOn_!_@KTMB=KyIi<FuC)8-_kzCb73> !(y4_7x6*a');
+define('LOGGED_IN_SALT',   'uYJu88u[q)-7&}@0No2@<:&b@f+Na7M2v2js|csNTiuJ^8)yYkccmL=DVJC<6oqL');
+define('NONCE_SALT',       'x,)c!)u`Op6+W+_vRw&RV7n)zu5s^]/yHRijia;NH7*@tH+tcB(j+1;+:,si4+AT');
 
 /**#@-*/
 
